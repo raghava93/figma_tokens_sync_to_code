@@ -1,0 +1,18 @@
+{
+  "Icon": {
+    "color-icon": {
+      "$type": "color",
+      "$value": "{Colors.LightNeutral.lightneutral800}",
+      "$description": "Use for icon-only buttons, or icons paired with color.text",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": true,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  }
+}

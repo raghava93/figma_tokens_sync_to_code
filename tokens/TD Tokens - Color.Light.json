@@ -2,7 +2,7 @@
   "Icon": {
     "color-icon": {
       "$type": "color",
-      "$value": "{Colors.LightNeutral.lightneutral800}",
+      "$value": "{primary}",
       "$description": "Use for icon-only buttons, or icons paired with color.text",
       "$extensions": {
         "com.figma": {
@@ -10,8 +10,24 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "color.icon"
+          }
         }
+      }
+    }
+  },
+  "primary": {
+    "$type": "color",
+    "$value": "#1c00c8",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
       }
     }
   }
